@@ -4,7 +4,7 @@ import pytest
 
 from ggshield.json_output import process_results_json
 from ggshield.json_output.schemas import JSONResultSchema
-from ggshield.scannable import Commit
+from ggshield.scan import Commit
 from ggshield.utils import Filemode
 from tests.conftest import (
     _MULTIPLE_SECRETS,

@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Tuple
 from pygitguardian.models import PolicyBreak
 
 from ggshield.filter import censor_content, leak_dictionary_by_ignore_sha
-from ggshield.scannable import Result
+from ggshield.scan import Result
 from ggshield.text_utils import Line
 from ggshield.utils import Filemode, get_lines_from_content, update_policy_break_matches
 
